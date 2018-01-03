@@ -15,6 +15,8 @@
 		5A562B901FFBDAFD00E3EE26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A562B8E1FFBDAFD00E3EE26 /* LaunchScreen.storyboard */; };
 		5A562B9B1FFC1D2400E3EE26 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A562B9A1FFC1D2400E3EE26 /* GradientView.swift */; };
 		5A8835ED1FFD22E4005A7DA9 /* RoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8835EC1FFD22E4005A7DA9 /* RoundImage.swift */; };
+		5A8835EF1FFD34BE005A7DA9 /* RoundedShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8835EE1FFD34BE005A7DA9 /* RoundedShadow.swift */; };
+		5A8835F11FFD37A5005A7DA9 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8835F01FFD37A5005A7DA9 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		5A562B911FFBDAFD00E3EE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A562B9A1FFC1D2400E3EE26 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		5A8835EC1FFD22E4005A7DA9 /* RoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImage.swift; sourceTree = "<group>"; };
+		5A8835EE1FFD34BE005A7DA9 /* RoundedShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadow.swift; sourceTree = "<group>"; };
+		5A8835F01FFD37A5005A7DA9 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		A5B95606BECA259913DDAA10 /* Pods-journey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-journey.release.xcconfig"; path = "Pods/Target Support Files/Pods-journey/Pods-journey.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +103,8 @@
 				5A562B891FFBDAFD00E3EE26 /* Main.storyboard */,
 				5A562B9A1FFC1D2400E3EE26 /* GradientView.swift */,
 				5A8835EC1FFD22E4005A7DA9 /* RoundImage.swift */,
+				5A8835EE1FFD34BE005A7DA9 /* RoundedShadow.swift */,
+				5A8835F01FFD37A5005A7DA9 /* CircleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,6 +247,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A8835F11FFD37A5005A7DA9 /* CircleView.swift in Sources */,
+				5A8835EF1FFD34BE005A7DA9 /* RoundedShadow.swift in Sources */,
 				5A562B881FFBDAFD00E3EE26 /* HomeVC.swift in Sources */,
 				5A562B861FFBDAFD00E3EE26 /* AppDelegate.swift in Sources */,
 				5A8835ED1FFD22E4005A7DA9 /* RoundImage.swift in Sources */,
